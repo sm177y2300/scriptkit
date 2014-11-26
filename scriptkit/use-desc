@@ -1,0 +1,2 @@
+#!/bin/bash
+nano /usr/portage/profiles/use.desc

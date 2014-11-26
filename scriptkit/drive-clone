@@ -1,0 +1,170 @@
+#!/bin/bash
+
+function checkroot {
+checkuser=( $(whoami) )
+if [ "$checkuser" != "root" ]; then
+echo "Must run as root!!"
+exit
+fi
+}
+
+if [ "$1" = "list" ]; then
+echo "Group 1: System (/boot /lib /etc /bin /sbin /var)"
+echo "Group 2: User (/usr /opt /home /root)"
+echo "Group 3: Other (/isos /WORK)"
+exit
+fi
+
+checkroot
+echo Type STOP to Abort.
+echo Press Enter to continue.
+read face
+
+if [ "$face" = "STOP" ]; then
+echo Aborting.
+unset face
+exit
+fi
+unset face
+
+function boot {
+echo "Syncing /boot..."
+rsync -auh --delete-during --progress /boot /run/media/sm177y/Patriot-MAG/
+echo "Done."
+echo " "
+}
+
+function lib {
+echo "Syncing /lib..."
+rsync -auh --delete-during --progress /lib /run/media/sm177y/Patriot-MAG/
+echo "Done."
+echo " "
+}	
+
+function opt {
+echo "Syncing /opt..."
+rsync -auh --delete-during --progress /opt /run/media/sm177y/Patriot-MAG/
+echo "Done."
+echo " "
+}
+
+function etc {
+echo "Syncing /etc..."
+rsync -auh --delete-during --progress /etc /run/media/sm177y/Patriot-MAG/
+echo "Done."
+echo " "
+}
+
+function bin {
+echo "Syncing /bin..."
+rsync -auh --delete-during --progress /bin /run/media/sm177y/Patriot-MAG/
+echo "Done."
+echo " "
+}
+
+function sbin {
+echo "Syncing /sbin..."
+rsync -auh --delete-during --progress /sbin /run/media/sm177y/Patriot-MAG/
+echo "Done."
+echo " "
+}
+
+function home {
+echo "Syncing /home..."
+rsync -auh --delete-during --progress /home /run/media/sm177y/Patriot-MAG/
+echo "Done."
+echo " "
+}
+
+function usr {
+echo "Syncing /usr..."
+rsync -auh --delete-during --progress /usr /run/media/sm177y/Patriot-MAG/
+echo "Done."
+echo " "
+}
+	
+function root {
+echo "Syncing /root..."
+rsync -aquh --delete-during --progress /root /run/media/sm177y/Patriot-MAG/
+echo "Done."
+echo " "
+}
+
+function var {
+echo "Syncing /var..."
+rsync -auh --delete-during --progress --exclude=/var/tmp /var /run/media/sm177y/Patriot-MAG/
+echo "Done."
+echo " "
+}
+
+function isos {
+echo "Syncing /isos..."
+rsync -auh --delete-during --progress /isos /run/media/sm177y/Patriot-MAG/
+echo "Done."
+echo " "
+}
+
+function work {
+echo "Syncing WORK..."
+rsync -aquh --delete-during --progress /WORK /run/media/sm177y/Patriot-MAG/
+echo Done.
+echo " "	
+}
+
+function group-one {
+boot
+lib
+etc
+bin
+sbin
+var
+}
+
+function group-two {
+usr
+opt
+home
+root
+}
+
+function group-three {
+isos
+}
+
+if [ "$1" = "group" ]; then
+	if [ "$2" = "1" ]; then
+		group-one
+	fi
+	if [ "$2" = "2" ]; then
+		group-two
+	fi
+	if [ "$2" = "3" ]; then
+		group-three
+	fi
+fi
+
+function syncall {
+boot
+lib
+etc
+bin
+sbin
+var
+usr
+opt
+home
+root
+isos
+#work
+}
+
+if [ "$1" = "all" ]; then
+echo "Syncing All..."
+	syncall
+fi
+
+if [ "$1" = "dir" ]; then
+	"$3"
+fi
+
+echo "Sync Complete!"

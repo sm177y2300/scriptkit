@@ -1,0 +1,78 @@
+#!/bin/bash
+
+function checktard {
+checkuser=( $(whoami) )
+if [ "$checkuser" != "root" ]; then
+echo "Must run as root!!"
+echo "Press Enter to close."
+tardcheck="fail"
+read tard
+unset tard
+fi	
+}
+
+function laycheck { 
+layman_check=( $(grep layman /var/lib/portage/world) )
+if [ "$layman_check" = "app-portage/layman" ]; then
+laysetup
+else
+laymerge
+fi
+}
+
+function laymerge {
+echo "No layman!! (may need -autounmask-write)"
+echo "Press Enter to attempt emerge as is..."
+read face
+unset face 
+emerge layman
+}
+
+function laysetup {
+layman -S
+layman -a vaca
+layman -s vaca
+}
+
+function keywords {
+dircheck=( $(ls -l /etc/portage/package.keywords | head -c1) )
+if [ "$dircheck" = "d" ]; then
+echo "x11-misc/cairo-dock **" >> /etc/portage/package.keywords/keywords
+echo "x11-misc/cairo-dock-plugins **" >> /etc/portage/package.keywords/keywords
+echo "x11-plugins/cairo-dock-plugins **" >> /etc/portage/package.keywords/keywords
+echo ">=dev-libs/libdbusmenu-12.10.2 ~x86" >> /etc/portage/package.keywords/keywords
+else
+echo "x11-misc/cairo-dock **" >> /etc/portage/package.keywords
+echo "x11-misc/cairo-dock-plugins **" >> /etc/portage/package.keywords
+echo "x11-plugins/cairo-dock-plugins **" >> /etc/portage/package.keywords
+echo ">=dev-libs/libdbusmenu-12.10.2 ~x86" >> /etc/portage/package.keywords
+fi
+}
+
+function useflags {
+unset dircheck
+dircheck=( $(ls -l /etc/portage/package.use | head -c1) )
+if [ "$dircheck" = "d" ]; then
+echo "x11-misc/cairo-dock **" >> /etc/portage/package.use/use
+echo "x11-misc/cairo-dock-plugins **" >> /etc/portage/package.use/use
+echo ">=dev-libs/libdbusmenu-0.6.2-r1 gtk" >> /etc/portage/package.use/use
+else
+echo "x11-misc/cairo-dock crypt gtk3 xcomposite" >> /etc/portage/package.use
+echo "x11-misc/cairo-dock-plugins alsa exif gtk3 xfce" >> /etc/portage/package.use
+echo ">=dev-libs/libdbusmenu-0.6.2-r1 gtk" >> /etc/portage/package.use
+fi	
+}
+
+function cairoinstall {
+emerge -av cairo-dock cairo-dock-plugins
+}
+
+checktard
+if [ "$tardcheck" = "fail" ]; then
+echo "Get Root."
+else
+laycheck
+keywords
+useflags
+cairoinstall
+fi

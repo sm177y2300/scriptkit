@@ -1,0 +1,10 @@
+#!/bin/bash
+killall conky &
+sleep 1
+conky -c/etc/conky/conky-green.conf &
+conky -c/etc/conky/conky-green-top.conf &
+#conky -c/etc/conky/conky-green-mid.conf &
+#conky -c/etc/conky/conky-grey.conf &
+#conky -c/etc/conky/conky-grey-top.conf &
+sleep 1
+clear

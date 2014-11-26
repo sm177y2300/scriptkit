@@ -1,0 +1,82 @@
+#!/bin/bash
+
+function getuser {
+echo Enter user name for proper linking.
+read username
+echo User set to $username
+echo Press Enter to continue...
+read face
+unset face
+}
+
+function checkroot {
+checkuser=( $(whoami) )
+if [ "$checkuser" != "root" ]; then
+	echo "Must run as root!!"
+exit
+fi
+}
+
+function prep {
+ls /home/$username/scriptkit > ripit
+cat /home/$username/scriptkit/ripit | grep -v ripit | grep -v installer | grep -v extras > /home/$username/scriptkit/ripit.tmp
+mv /home/$username/scriptkit/ripit.tmp /home/$username/scriptkit/ripit
+chmod 755 /home/$username/scriptkit/*
+ripit_ary=( $( cat /home/$username/scriptkit/ripit ) )
+ripit_length=${#ripit_ary[@]}
+}
+
+
+function remove {
+if [ "$2" = "single" ]; then
+	cat /home/$username/scriptkit/ripit | grep "$3" > /home/$username/scriptkit/ripit.tmp
+	mv /home/$username/scriptkit/ripit.tmp /home/$username/scriptkit/ripit
+	chmod 755 /home/$username/scriptkit/*
+	ripit_ary=( $( cat /home/$username/scriptkit/ripit ) )
+	ripit_length=${#ripit_ary[@]}
+	rm /usr/bin/$3
+	echo $3 Link Removed
+fi
+if [ "$2" = "all" ]; then
+	for (( i=0; i<"$ripit_length"; i++)); do
+	rm /usr/bin/${ripit_ary[$i]}
+	echo ${ripit_ary[$i]} Link Removed.
+	done
+fi
+}
+
+function install {
+if [ "$2" = "single" ]; then
+ln -s /home/$username/scriptkit/$3 /usr/bin/$3
+echo $3 Installed.
+fi
+if [ "$2" = "all" ]; then
+	for (( i=0; i<"$ripit_length"; i++ )); do
+	ln -s /home/$username/scriptkit/"${ripit_ary[$i]}" /usr/bin/"${ripit_ary[$i]}"
+	echo "${ripit_ary[$i]}" Installed. 
+	done
+fi
+}
+
+function doit {
+if [ "$1" = "install" ]; then
+install $1 $2 $3
+echo Inserting root link to scriptkit.
+rm -f /root/scriptkit
+ln -s /home/$username/scriptkit /root/scriptkit
+echo Done.
+fi
+
+if [ "$1" = "remove" ]; then
+remove $1 $2 $3
+echo Removing root link to scriptkit.
+rm -f /root/scriptkit
+echo Done.
+fi
+}
+
+checkroot
+getuser
+prep
+doit $1 $2 $3
+rm -rf /home/$username/scriptkit/ripit

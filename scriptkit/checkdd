@@ -1,0 +1,3 @@
+#!/bin/bash
+val=$( pgrep -l '^dd$' | head -c5 )
+kill -USR1  "$val"

@@ -1,0 +1,22 @@
+#!/bin/bash
+rm -rf $1/new_songs
+rm -rf $1/song_list
+#mkdir $1/new_songs
+rm -f $1/*reapeaks
+ls $1 > tmp_list
+cat tmp_list | grep -v new_songs | grep -v pre_songs | grep -v bkup > $1/song_list
+rm -f tmp_list
+length=$( wc -l $1/song_list )
+snip_ary=( $( echo $length ) )
+snip=${snip_ary[0]}
+echo Total Count of Songs is $snip
+mkdir $1/bkup
+cp -R $1/* $1/bkup
+for (( i=0; i<$snip; i++ )); do
+trim=$(( $i + 1 ))
+current_song="$( cat "$1/song_list" | head -n $trim | tail -n1 )"
+echo Normalizing $trim/$snip "$current_song"
+#ffmpeg -vol 256 -loglevel quiet -i "$1/$current_song" "$1/new_songs/$current_song"
+mp3gain -pkq "$1/$current_song"
+done
+rm -f tmp_list

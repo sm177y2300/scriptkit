@@ -1,0 +1,328 @@
+aspell-af-0.50.0.ebuild 
+aspell-be-0.01-r1.ebuild 
+aspell-bg-4.1.0.ebuild 
+aspell-br-0.50.2.ebuild 
+aspell-ca-2.1.5.1.ebuild 
+aspell-cs-0.60.20040614.ebuild 
+aspell-cy-0.50.3.ebuild 
+aspell-da-1.7.42.ebuild 
+aspell-de-0.60_pre20030222.ebuild 
+aspell-de-alt-2.1.1-r1.ebuild 
+aspell-el-0.50.3.ebuild 
+aspell-en-7.1.0.ebuild 
+aspell-eo-2.1.20000225.2.ebuild 
+aspell-es-1.9a.ebuild 
+aspell-et-0.1.21.1.ebuild 
+aspell-fi-0.7.0.ebuild 
+aspell-fo-0.51.0.ebuild 
+aspell-fr-0.60.ebuild 
+aspell-ga-0.50.4.ebuild 
+aspell-gl-0.5.2.ebuild 
+aspell-he-1.0.0.ebuild 
+aspell-hr-0.51.0.ebuild 
+aspell-hu-0.99.4.2.ebuild 
+aspell-hy-0.10.0.ebuild 
+aspell-is-0.51.1.0.ebuild 
+aspell-it-2.4.20070901.ebuild 
+aspell-la-6.0.20020503.0.ebuild 
+aspell-lt-1.0.1.ebuild 
+aspell-nl-0.50.2.ebuild 
+aspell-no-0.50.2.ebuild 
+aspell-pl-6.0.20120418.0.ebuild 
+aspell-pt-0.50.2-r1.ebuild 
+aspell-pt-br-6.0.20090702.ebuild 
+aspell-ro-3.3.2.ebuild 
+aspell-ru-0.99.1-r1.ebuild 
+aspell-sk-2.01.2.ebuild 
+aspell-sl-0.50.0.ebuild 
+aspell-sr-0.60.ebuild 
+aspell-sv-0.51.0.ebuild 
+aspell-uk-1.4.0.0.ebuild 
+aspell-vi-0.01.1.1.ebuild 
+bookview-3.2.1.ebuild DESCRIPTION="NDTP client written in Tcl/Tk"
+canna-2ch-20030827.ebuild DESCRIPTION="Japanese Canna dictionary for 2channelers"
+canna-cannadic-0.95a.ebuild DESCRIPTION="Japanese dictionary as a supplement/replacement to the dictionaries distributed with Canna3.5b2"
+dictd-devils-0-r1.ebuild DESCRIPTION="The Devil's Dictionary for dict"
+dictd-dicts-1.0.ebuild DESCRIPTION="A package to simplify installation of all dictd dictionaries"
+dictd-elements-2000.22.07-r1.ebuild DESCRIPTION="The elements database for dict"
+dictd-foldoc-2001.03.13-r1.ebuild DESCRIPTION="The Free On-line Dictionary of Computing for dict"
+dictd-gazetteer-1.2-r1.ebuild DESCRIPTION="The original U.S. Gazetteer Place and Zipcode Files for dict"
+dictd-jargon-4.2.3-r1.ebuild DESCRIPTION="Jargon lexicon"
+dictd-misc-1.5b-r1.ebuild DESCRIPTION="Easton's 1897 Bible Dictionary for dict"
+dictd-vera-1.21a.ebuild DESCRIPTION="V.E.R.A. -- Virtual Entity of Relevant Acronyms for dict"
+dictd-web1913-1.4-r1.ebuild DESCRIPTION="Webster's Revised Unabridged Dictionary (1913) for dict"
+dictd-wn-1.5-r1.ebuild DESCRIPTION="WordNet for dict"
+dikt-2l.ebuild DESCRIPTION="A dictionary for KDE"
+duali-data-0.1b.ebuild DESCRIPTION="Dictionary data for the Arab dictionary project duali"
+eblook-1.6.1.ebuild DESCRIPTION="Interactive search utility for electronic dictionaries"
+edictionary-2.6.ebuild DESCRIPTION="Command line dictionary and thesaurus"
+freedict-deu-eng-1.0.ebuild 
+freedict-eng-fra-1.0.ebuild 
+freedict-eng-ita-1.0.ebuild 
+freedict-eng-swe-1.0.ebuild 
+freedict-fra-eng-1.0.ebuild 
+freedict-ita-eng-1.0.ebuild 
+gjiten-2.3.ebuild DESCRIPTION="A Japanese dictionary program for Gnome"
+gnome-dictionary-3.10.0.ebuild DESCRIPTION="Dictionary utility for GNOME"
+gnuvd-1.0.11.ebuild DESCRIPTION="gnuvd is a command line interface to the Van Dale(tm) on-line Dutch dictionary"
+gwaei-3.0.2.ebuild DESCRIPTION="Japanese-English Dictionary for GNOME"
+ipadic-2.7.0.ebuild DESCRIPTION="Japanese dictionary for ChaSen"
+kasumi-2.5-r1.ebuild DESCRIPTION="Anthy dictionary maintenance tool"
+libydpdict-1.0.2.ebuild DESCRIPTION="Library for handling the Collins Dictionary database"
+mecab-ipadic-2.7.0.20070801.ebuild DESCRIPTION="IPA dictionary for MeCab"
+mecab-naist-jdic-0.6.3b_p20111013.ebuild DESCRIPTION="NAIST Japanese Dictionary"
+migemo-dict-200309.ebuild DESCRIPTION="Dictionary files for the Migemo and C/Migemo"
+myspell-af-20080701.ebuild DESCRIPTION="Afrikaans dictionaries for myspell/hunspell"
+myspell-bg-4.3.ebuild DESCRIPTION="Bulgarian dictionaries for myspell/hunspell"
+myspell-ca-2.3.0.ebuild DESCRIPTION="Catalan dictionaries for myspell/hunspell"
+myspell-cs-20110224.ebuild DESCRIPTION="Czech dictionaries for myspell/hunspell"
+myspell-cy-20060316.ebuild DESCRIPTION="Welsh dictionaries for myspell/hunspell"
+myspell-da-2.1.ebuild DESCRIPTION="Danish dictionaries for myspell/hunspell"
+myspell-de-2012.06.17.ebuild DESCRIPTION="German dictionaries for myspell/hunspell"
+myspell-de-alt-20061123.ebuild DESCRIPTION="German dictionaries for myspell/hunspell"
+myspell-el-0.8.ebuild DESCRIPTION="Greek dictionaries for myspell/hunspell"
+myspell-en-20081002.ebuild DESCRIPTION="English dictionaries for myspell/hunspell"
+myspell-eo-1.0.ebuild DESCRIPTION="Esperanto dictionaries for myspell/hunspell"
+myspell-es-0.6.ebuild DESCRIPTION="Spanish dictionaries for myspell/hunspell"
+myspell-et-20030606.ebuild DESCRIPTION="Estonian dictionaries for myspell/hunspell"
+myspell-fo-0.4.2.ebuild DESCRIPTION="Faroese dictionaries for myspell/hunspell"
+myspell-fr-4.5-r1.ebuild DESCRIPTION="French dictionaries for myspell/hunspell"
+myspell-ga-20060316.ebuild DESCRIPTION="Irish dictionaries for myspell/hunspell"
+myspell-gl-20060316.ebuild DESCRIPTION="Galician dictionaries for myspell/hunspell"
+myspell-he-2010.11.05.ebuild DESCRIPTION="Hebrew dictionaries for myspell/hunspell"
+myspell-hr-20060316.ebuild DESCRIPTION="Croatian dictionaries for myspell/hunspell"
+myspell-hu-1.6.1.ebuild DESCRIPTION="Hungarian dictionaries for myspell/hunspell"
+myspell-ia-20060316.ebuild DESCRIPTION="Interlingua dictionaries for myspell/hunspell"
+myspell-id-1.0.ebuild DESCRIPTION="Indonesian dictionaries for myspell/hunspell"
+myspell-is-2012.09.01.ebuild DESCRIPTION="Icelandic dictionaries for myspell/hunspell"
+myspell-it-20081129-r1.ebuild DESCRIPTION="Italian dictionaries for myspell/hunspell"
+myspell-km-1.6.ebuild DESCRIPTION="Khmer dictionaries for myspell/hunspell"
+myspell-ku-0.21.ebuild DESCRIPTION="Kurdish dictionaries for myspell/hunspell"
+myspell-lt-1.2.1.ebuild DESCRIPTION="Lithuanian dictionaries for myspell/hunspell"
+myspell-lv-0.9.4-r1.ebuild DESCRIPTION="Latvian dictionaries for myspell/hunspell"
+myspell-mi-20060316.ebuild DESCRIPTION="Maori dictionaries for myspell/hunspell"
+myspell-mk-20060316.ebuild DESCRIPTION="Macedonian dictionaries for myspell/hunspell"
+myspell-ms-20060316.ebuild DESCRIPTION="Malay dictionaries for myspell/hunspell"
+myspell-nb-2.0.10.ebuild DESCRIPTION="Norwegian dictionaries for myspell/hunspell"
+myspell-nl-2.10g.ebuild DESCRIPTION="Dutch dictionaries for myspell/hunspell"
+myspell-nn-2.0.10.ebuild DESCRIPTION="Norwegian dictionaries for myspell/hunspell"
+myspell-pl-20130306.ebuild DESCRIPTION="Polish dictionaries for myspell/hunspell"
+myspell-pt-20120420.ebuild DESCRIPTION="Portuguese dictionaries for myspell/hunspell"
+myspell-pt-br-3.0.0.ebuild DESCRIPTION="Brazilian dictionaries for myspell/hunspell"
+myspell-ro-3.3.10.ebuild DESCRIPTION="Romanian dictionaries for myspell/hunspell"
+myspell-ru-20060316.ebuild DESCRIPTION="Russian dictionaries for myspell/hunspell"
+myspell-sk-20110224.ebuild DESCRIPTION="Slovak dictionaries for myspell/hunspell"
+myspell-sl-2012.01.04.ebuild DESCRIPTION="Slovenian dictionaries for myspell/hunspell"
+myspell-sq-1.6.4.ebuild DESCRIPTION="Albanian dictionaries for myspell/hunspell"
+myspell-sv-2.14.ebuild DESCRIPTION="Swedish dictionaries for myspell/hunspell"
+myspell-sw-20060316.ebuild DESCRIPTION="Kiswahili dictionaries for myspell/hunspell"
+myspell-tn-20060316.ebuild DESCRIPTION="Setswana dictionaries for myspell/hunspell"
+myspell-uk-1.6.5.ebuild DESCRIPTION="Ukrainian dictionaries for myspell/hunspell"
+myspell-zu-20060316.ebuild DESCRIPTION="Zulu dictionaries for myspell/hunspell"
+opendict-0.6.3.ebuild DESCRIPTION="OpenDict is a free cross-platform dictionary program"
+prime-dict-1.0.0-r1.ebuild DESCRIPTION="Dictionary files for PRIME input method"
+qvortaro-0.4.1.ebuild DESCRIPTION="Esperanto Dictionary"
+stardict-cdict-en-zh-big5-2.4.2.ebuild 
+stardict-cdict-en-zh-gb-2.4.2.ebuild 
+stardict-cedict-zh-en-big5-2.4.2.ebuild 
+stardict-cedict-zh-en-gb-2.4.2.ebuild 
+stardict-dictd-devils-2.4.2.ebuild DESCRIPTION="Stardict Dictionary for Dictd.org's Devil's Dictionary"
+stardict-freedict-eng-deu-2.4.2.ebuild 
+stardict-freedict-eng-fra-2.4.2.ebuild 
+stardict-freedict-eng-ita-2.4.2.ebuild 
+stardict-freedict-eng-lat-2.4.2.ebuild 
+stardict-freedict-eng-rus-2.4.2.ebuild 
+stardict-freedict-eng-spa-2.4.2.ebuild 
+stardict-freedict-eng-swe-2.4.2.ebuild 
+stardict-freedict-eng-tur-2.4.2.ebuild 
+stardict-freedict-tur-deu-2.4.2.ebuild 
+stardict-freedict-tur-eng-2.4.2.ebuild 
+stardict-hnd-de-vi-20050917.ebuild 
+stardict-hnd-en-vi-20050917.ebuild 
+stardict-hnd-fr-vi-20050917.ebuild 
+stardict-hnd-ru-vi-20050917.ebuild 
+stardict-hnd-vi-de-20050917.ebuild 
+stardict-hnd-vi-en-20050917.ebuild 
+stardict-hnd-vi-fr-20050917.ebuild 
+stardict-hnd-vi-vi-20050917.ebuild 
+stardict-jmdict-en-ja-2.4.2-r1.ebuild 
+stardict-jmdict-ja-en-2.4.2-r1.ebuild 
+stardict-langdao-en-zh-gb-2.4.2.ebuild 
+stardict-langdao-zh-en-gb-2.4.2.ebuild 
+stardict-mova-smiley-2.4.2.ebuild DESCRIPTION="Stardict Dictionary for Mova.org's Smiley Dictionary"
+stardict-oxford-en-zh-gb-2.4.2.ebuild 
+stardict-quick-eng-fra-2.4.2.ebuild 
+stardict-quick-eng-jpn-2.4.2.ebuild 
+stardict-quick-jpn-eng-2.4.2.ebuild 
+stardict-quick-ru-en-2.4.2.ebuild DESCRIPTION="Quick but still useful Russian to English dictionary"
+stardict-xdict-en-zh-big5-2.4.2.ebuild 
+stardict-xdict-en-zh-gb-2.4.2.ebuild 
+stardict-xdict-zh-en-big5-2.4.2.ebuild 
+stardict-xdict-zh-en-gb-2.4.2.ebuild 
+sword-ab-1.3.ebuild DESCRIPTION="The Apostle's Bible"
+sword-abbott-1.0.ebuild DESCRIPTION="Illustrated New Testament"
+sword-abs_essay_goodsam_swb-1.0.ebuild DESCRIPTION="Essays on The Good Samaritan: Violence on the Road, Social World of Bandits"
+sword-acv-2.0.ebuild DESCRIPTION="A Conservative Version"
+sword-afr1953-1.2.ebuild DESCRIPTION="Afrikaans Bybel"
+sword-akjv-1.4.ebuild DESCRIPTION="American King James Version"
+sword-alb-1.2.ebuild DESCRIPTION="Albanian Bible"
+sword-aleppo-1.1.ebuild DESCRIPTION="Aleppo Codex"
+sword-amtract-1.1.ebuild DESCRIPTION="American Tract Society Bible Dictionary"
+sword-arasvd-1.1.ebuild DESCRIPTION="Smith and van Dyck's al-Kitab al-Muqaddas (Arabic Bible)"
+sword-armeastern-1.1.ebuild DESCRIPTION="Eastern Armenian Bible"
+sword-armwestern-1.1.ebuild DESCRIPTION="1853 Western Armenian NT"
+sword-asv-1.3.ebuild DESCRIPTION="American Standard Version (1901)"
+sword-barnes-1.1.ebuild DESCRIPTION="Barnes' New Testament Notes"
+sword-bashautin-1.5.ebuild DESCRIPTION="1571 Navarro-Labourdin Basque NT"
+sword-bbe-1.3.ebuild DESCRIPTION="Bible in Basic English (1949/1964)"
+sword-br_en-1.1.ebuild DESCRIPTION="Breton to English Glossary"
+sword-bulcarigradnt-1.0.ebuild DESCRIPTION="Bulgarian New Testament from 1914, known as 'Tsarigrad Edition'"
+sword-bulveren-1.0.ebuild DESCRIPTION="Veren's Contemporary Bible"
+sword-burjudson-1.1.ebuild DESCRIPTION="1835 Judson Burmese Bible"
+sword-bwe-1.0.ebuild DESCRIPTION="Bible in Worldwide English"
+sword-byz-1.10.ebuild DESCRIPTION="Byzantine/Majority Text (2000)"
+sword-cbc-1.1.ebuild DESCRIPTION="Condensed Biblical Cyclopedia"
+sword-chamorro-2.7.ebuild DESCRIPTION="Chamorro: Y Santa Biblia"
+sword-chincvs-1.0.ebuild DESCRIPTION="New Chinese Version Simplified"
+sword-chincvt-1.0.ebuild DESCRIPTION="New Chinese Version Traditional"
+sword-chiun-2.0.ebuild DESCRIPTION="Chinese Union Version Traditional"
+sword-chiuns-2.0.ebuild DESCRIPTION="Chinese Union Version Simplified"
+sword-clarke-1.0.ebuild DESCRIPTION="Adam Clarke's Commentary on the Bible"
+sword-common-1.3.ebuild DESCRIPTION="The Common Edition: New Testament"
+sword-cro-1.0.ebuild DESCRIPTION="Croatian Bible"
+sword-czebkr-1.1.ebuild DESCRIPTION="Czech Bible Kralicka"
+sword-czecep-1.4.ebuild DESCRIPTION="Czech Ekumenicky Cesky preklad"
+sword-czekms-1.4.ebuild DESCRIPTION="Czech Preklad KMS Nova smlouva"
+sword-czenkb-1.1.ebuild DESCRIPTION="Czech Nova kralicka Bible"
+sword-daily-1.0.ebuild DESCRIPTION="Jonathan Bagster's Daily Light on the Daily Path"
+sword-dan-2.1.ebuild DESCRIPTION="Danske Bibel"
+sword-darby-1.1.ebuild DESCRIPTION="Darby Bible (1889)"
+sword-dbd-1.1.ebuild DESCRIPTION="Day By Day By Grace - Bob Hoekstra"
+sword-diaglott-1.1.ebuild DESCRIPTION="The Emphatic Diaglott"
+sword-drc-1.1.ebuild DESCRIPTION="Douay-Rheims Bible, Challoner Revision"
+sword-dtn-1.0.ebuild DESCRIPTION="Darby Translation Notes"
+sword-dutkant-1.1.ebuild DESCRIPTION="Kanttekeningen Statenvertaling"
+sword-dutsvv-1.5.ebuild DESCRIPTION="Dutch Statenvertaling"
+sword-easton-1.2.ebuild DESCRIPTION="Easton's Bible Dictionary"
+sword-emtv-1.3.ebuild DESCRIPTION="English Majority Text Version"
+sword-esperanto-1.6.ebuild DESCRIPTION="Esperanto Bible"
+sword-est-1.1.ebuild DESCRIPTION="Estonian Bible"
+sword-family-1.1.ebuild DESCRIPTION="Family Bible Notes"
+sword-farsiopv-1.0.ebuild DESCRIPTION="Persian Holy Bible (Tarjumeh-ye Ghadeem)"
+sword-finbiblia-1.1.ebuild DESCRIPTION="Finnish Biblia (1776)"
+sword-finney-1.1.ebuild DESCRIPTION="Sermons on Gospel Themes by Charles G. Finney (1792-1875)"
+sword-finpr-1.2.ebuild DESCRIPTION="Finnish Pyh, Raamattu (1933/1938)"
+sword-finpr92-1.1.ebuild DESCRIPTION="Finnish Pyh, Raamattu (1992)"
+sword-frebbb-1.1.ebuild DESCRIPTION="French Bible Bovet Bonnet (1900)"
+sword-frecrampon-1.1.ebuild DESCRIPTION="La Bible Augustin Crampon 1923"
+sword-frecrl-1.2.ebuild DESCRIPTION="French Haitian Creole Version"
+sword-frelsg-1.3.ebuild DESCRIPTION="French Louis Segond (1910)"
+sword-fremartin-1.2.ebuild DESCRIPTION="French Bible Martin (1744)"
+sword-fresegond-1.6.ebuild DESCRIPTION="French Traduction de Louis Segond (1910)"
+sword-geneva-1.1.ebuild DESCRIPTION="Geneva Bible Translation Notes"
+sword-geneva1599-1.1.ebuild DESCRIPTION="Geneva Bible (1599)"
+sword-gerelb1871-1.1.ebuild DESCRIPTION="German Elberfelder (1871)"
+sword-gerelb1905-1.5.ebuild DESCRIPTION="German Darby Unrevidierte Elberfelder (1905)"
+sword-gerlut1545-1.2.ebuild DESCRIPTION="German Unrevidierte Luther Ubersetzung von 1545"
+sword-gersch-1.1.ebuild DESCRIPTION="German Schlachter Bibel (1951)"
+sword-greekhebrew-1.1.ebuild DESCRIPTION="Greek to Hebrew Dictionary of Septuagint Words"
+sword-hebmodern-1.1.ebuild DESCRIPTION="Modern Hebrew Bible"
+sword-hebrewgreek-1.1.ebuild DESCRIPTION="Hebrew to Greek Dictionary of Septuagint Words"
+sword-heretics-1.1.ebuild DESCRIPTION="Heretics by Gilbert K. Chesterton (1874-1936)"
+sword-hitchcock-1.3.ebuild DESCRIPTION="Hitchcock's Bible Names"
+sword-hnv-1.8.ebuild DESCRIPTION="Hebrew Names Version of the World English Bible"
+sword-hunkar-1.7.ebuild DESCRIPTION="Hungarian Karoli"
+sword-hunuj-1.2.ebuild DESCRIPTION="New Translation Bible of the Hungarian Bible Society (Magyar Bibliatarsulat Ujforditasu Bibliaja)"
+sword-icelandic-1.1.ebuild DESCRIPTION="Icelandic Bible"
+sword-institutes-1.2.ebuild DESCRIPTION="Calvin's Institutes"
+sword-isbe-1.6.ebuild DESCRIPTION="International Standard Bible Encyclopedia"
+sword-isv-1.5.ebuild DESCRIPTION="International Standard Version"
+sword-itadio-1.0.ebuild DESCRIPTION="Italian Giovanni Diodati Bibbia 1649"
+sword-itarive-1.0.ebuild DESCRIPTION="Italian Riveduta Bibbia (1927)"
+sword-jfb-2.2.ebuild DESCRIPTION="Jamieson Fausset Brown Bible Commentary"
+sword-josephus-1.1.ebuild DESCRIPTION="Josephus: The Complete Works"
+sword-jps-1.2.ebuild DESCRIPTION="Jewish Publication Society Old Testament"
+sword-jst-1.1.ebuild DESCRIPTION="Joseph Smith Translation"
+sword-jubilee2000-1.1.ebuild DESCRIPTION="English Jubilee 2000 Bible"
+sword-kekchi-1.5.ebuild DESCRIPTION="Kekchi Bible"
+sword-kjv-2.3.ebuild DESCRIPTION="King James Version (1769) with Strongs Numbers and Morphology"
+sword-kjvd-1.1.ebuild DESCRIPTION="King James Dictionary"
+sword-klv-2.2.ebuild DESCRIPTION="Klingon Language Version of the World English Bible"
+sword-klven_iklingon-2.1.ebuild DESCRIPTION="Klingon Language Version English to Klingon mapping lexicon"
+sword-klviklingon_en-2.1.ebuild DESCRIPTION="Klingon Language Version Klingon to English mapping lexicon"
+sword-korean-1.1.ebuild DESCRIPTION="Korean Bible"
+sword-la_en-1.1.ebuild DESCRIPTION="Latin to English Glossary"
+sword-latvian-1.1.ebuild DESCRIPTION="Latvian New Testament"
+sword-lightfoot-1.0.ebuild DESCRIPTION="John Lightfoot Commentary"
+sword-litv-1.3.ebuild DESCRIPTION="Green's Literal Translation"
+sword-luther-1.1.ebuild DESCRIPTION="Luther's Commentary on Galatians"
+sword-mak-1.0.ebuild DESCRIPTION="Matthias Ansorgs Kommentar"
+sword-manxgaelic-1.1.ebuild DESCRIPTION="Manx Gaelic Scripture Portions"
+sword-maori-1.1.ebuild DESCRIPTION="Maori Bible"
+sword-mhc-1.6.ebuild DESCRIPTION="Matthew Henry's Complete Commentary on the Whole Bible"
+sword-mhcc-1.1.ebuild DESCRIPTION="Matthew Henry's Concise Commentary on the Whole Bible"
+sword-mkjv-1.3.ebuild DESCRIPTION="Green's Modern King James Version"
+sword-montgomery-1.3.ebuild DESCRIPTION="Montgomery New Testament"
+sword-murdock-1.2.ebuild DESCRIPTION="James Murdock's Translation of the Syriac Peshitta"
+sword-nave-1.1.ebuild DESCRIPTION="Nave's Topical Bible"
+sword-norsk-1.5.ebuild DESCRIPTION="Den Norske Bibelen"
+sword-orthodoxy-1.0.ebuild DESCRIPTION="Orthodoxy by Gilbert K. Chesterton (1874-1936)"
+sword-packard-1.2.ebuild DESCRIPTION="Packard's Morphological Analysis Codes"
+sword-personal-1.0.ebuild DESCRIPTION="Personal Commentary"
+sword-peshitta-1.1.ebuild DESCRIPTION="Syriac Peshitta"
+sword-pilgrim-1.0.ebuild DESCRIPTION="The Pilgrim's Progress by John Bunyan (1628-1688)"
+sword-pnt-1.1.ebuild DESCRIPTION="The People's New Testament"
+sword-practice-1.0.ebuild DESCRIPTION="The Practice of the Presence of God: The Best Rule of Holy Life"
+sword-rkjnt-1.0.ebuild DESCRIPTION="Revised King James New Testament"
+sword-rnkjv-1.5.ebuild DESCRIPTION="Restored Name King James Version"
+sword-robinson-2.0.ebuild DESCRIPTION="Robinson's Morphological Analysis Codes"
+sword-romcor-1.2.ebuild DESCRIPTION="Romanian Cornilescu Version"
+sword-rotherham-1.6.ebuild DESCRIPTION="The Emphasized Bible by J. B. Rotherham"
+sword-rst-1.6.ebuild DESCRIPTION="Russian Synodal Translation"
+sword-rusmakarij-1.1.ebuild DESCRIPTION="The Pentateuch of Moses in Russian"
+sword-rwebster-1.3.ebuild DESCRIPTION="Revised Webster Version (1833)"
+sword-rwp-1.9.ebuild DESCRIPTION="Robertson's Word Pictures"
+sword-saoa-1.0.ebuild DESCRIPTION="Scripture Alphabet Of Animals"
+sword-scofield-1.0.ebuild DESCRIPTION="Scofield Reference Notes, 1917 Edition"
+sword-scotsgaelic-1.2.ebuild DESCRIPTION="Scots Gaelic Gospel of Mark"
+sword-sme-1.7.ebuild DESCRIPTION="C. H. Spurgeon's Morning and Evening: Daily Readins"
+sword-smith-1.3.ebuild DESCRIPTION="Smith's Bible Dictionary"
+sword-sparv-1.5.ebuild DESCRIPTION="Spanish Reina-Valera"
+sword-sparvg2004-1.0.ebuild DESCRIPTION="Spanish Reina Valera Gomez 2004"
+sword-spasev-1.1.ebuild DESCRIPTION="Spanish Sagradas Escrituras Version Antigua (1569)"
+sword-spavnt-1.2.ebuild DESCRIPTION="Spanish Valera New Testament (1858)"
+sword-spurious-1.0.ebuild DESCRIPTION="Tischendorf's Spurious Passages of the GNT"
+sword-strongsgreek-1.2.ebuild DESCRIPTION="Strong's Greek Bible Dictionary"
+sword-strongshebrew-1.2.ebuild DESCRIPTION="Strong's Hebrew Bible Dictionary"
+sword-swahili-1.1.ebuild DESCRIPTION="Swahili New Testament"
+sword-tagalog-1.1.ebuild DESCRIPTION="Tagalog (John & James)"
+sword-tcr-1.1.ebuild DESCRIPTION="Thompson Chain Topics"
+sword-tdavid-1.1.ebuild DESCRIPTION="C. H. Spurgeon's Treasury of David"
+sword-tfg-1.5.ebuild DESCRIPTION="The Fourfold Gospel and Commentary on Acts of Apostles"
+sword-tisch-1.3.ebuild DESCRIPTION="Tischendorf's Eighth Edition GNT"
+sword-torrey-1.3.ebuild DESCRIPTION="R. A. Torrey's New Topical Textbook"
+sword-tr-1.2.ebuild DESCRIPTION="Textus Receptus (1550/1894)"
+sword-tsk-1.4.ebuild DESCRIPTION="Treasury of Scripture Knowledge"
+sword-twenty-1.1.ebuild DESCRIPTION="Twentieth Century New Testament"
+sword-tyndale-1.0.ebuild DESCRIPTION="William Tyndale Bible (1525/1530)"
+sword-ukjv-1.1.ebuild DESCRIPTION="Updated King James Version"
+sword-ukrainian-1.3.ebuild DESCRIPTION="Ukrainian Bible"
+sword-uma-1.2.ebuild DESCRIPTION="Uma New Testament"
+sword-umgreek-1.6.ebuild DESCRIPTION="Unaccented Modern Greek Text"
+sword-vulgate-1.1.ebuild DESCRIPTION="Latin Vulgate"
+sword-vulgate_hebps-1.1.ebuild DESCRIPTION="Latin Vulgate Psalms from Hebrew"
+sword-web-1.8.ebuild DESCRIPTION="World English Bible"
+sword-webster-1.2.ebuild DESCRIPTION="Webster Bible"
+sword-webstersdict-1.1.ebuild DESCRIPTION="Webster's Revised Unabridged Dictionary of the English Language
+sword-wesley-1.1.ebuild DESCRIPTION="John Wesley's Notes on the Bible"
+sword-weymouth-1.1.ebuild DESCRIPTION="Weymouth NT (1912)"
+sword-whnu-1.10.ebuild DESCRIPTION="Westcott-Hort with NA27/UBS4 variants (1881)"
+sword-wlc-1.4.ebuild DESCRIPTION="Westminster Leningrad Codex"
+sword-wulfila-1.0.ebuild DESCRIPTION="Bishop Wulfila Gothic Bible"
+sword-wycliffe-1.0.ebuild DESCRIPTION="John Wycliffe Bible (1395)"
+sword-xhosa-1.1.ebuild DESCRIPTION="Xhosa Bible"
+sword-ylt-1.1.ebuild DESCRIPTION="Young's Literal Translation (1898)"
+verbiste-0.1.38-r1.ebuild DESCRIPTION="French conjugation system"
+wnn-ldic-1.04.ebuild DESCRIPTION="Wnn dictionary for librarian"
+wordnet-3.0-r3.ebuild DESCRIPTION="A lexical database for the English language"
+ydpdict-1.0.2.ebuild DESCRIPTION="Interface for the Collins Dictionary"

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+function checkroot {
+checkuser=( $(whoami) )
+if [ "$checkuser" = "root" ]; then
+nano /etc/fstab
+else
+cat /etc/fstab
+fi
+}
+
+checkroot

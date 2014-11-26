@@ -1,0 +1,4 @@
+#!/bin/bash
+killall vidalia &
+sleep 2
+vidalia &

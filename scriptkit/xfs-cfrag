@@ -1,0 +1,2 @@
+#!/bin/bash
+xfs_db -r /dev/$1 -c frag 

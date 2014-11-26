@@ -1,0 +1,11 @@
+#!/bin/bash
+function checkroot {
+checkuser=( $(whoami) )
+if [ "$checkuser" != "root" ]; then
+echo "Must run as root!!"
+exit
+fi
+}
+
+checkroot
+ifconfig wlan0 up

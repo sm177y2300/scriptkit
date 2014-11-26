@@ -1,0 +1,15 @@
+#!/bin/bash
+
+function checkroot {
+checkuser=( $(whoami) )
+if [ "$checkuser" != "root" ]; then
+echo "Must run as root!!"
+exit
+fi
+}
+checkroot
+
+rm -f /usr/src/linux/.config
+cp /usr/src/linux/new-conf /usr/src/linux/.config
+cp /home/sm177y/scriptkit/extras/genkernel.conf /etc/genkernel.conf
+genkernel --config=/etc/genkernel.conf initramfs

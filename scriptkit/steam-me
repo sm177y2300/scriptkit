@@ -1,0 +1,19 @@
+#!/bin/bash
+if [ "$1" = "install" ]; then
+wget "http://media.steampowered.com/client/installer/steam.deb"
+mkdir Steam
+mv steam.deb Steam
+cd Steam
+ar x steam.deb
+tar -xvzf data.tar.gz
+cd usr/lib/steam
+xz -d bootstraplinux_ubuntu12_32.tar.xz
+tar -xvf bootstraplinux_ubuntu12_32.tar
+cd ../../../..
+fi
+
+if [ "$1" = "run" ]; then
+cd Steam/usr/lib/steam
+./steam.sh &
+cd ../../../..
+fi

@@ -1,0 +1,2 @@
+#!/bin/bash
+google-chrome-stable -incognito --proxy-server="socks5://localhost:9050" k5zq47j6wd3wdvjq.onion/
