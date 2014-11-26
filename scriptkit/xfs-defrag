@@ -1,2 +1,0 @@
-#!/bin/bash
-xfs_fsr -v "/dev/$1"

@@ -1,6 +1,0 @@
-#!/bin/bash
-if [ "$1" = "lh" ]; then
-	ls -lh /dev | grep sd
-else
-ls /dev | grep sd
-fi
